@@ -42,15 +42,13 @@
   };
   services.displayManager.ly.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.hxt = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" ];
     packages = with pkgs; [
       tree
     ];
   };
-
 
   programs.firefox.enable = true;
 

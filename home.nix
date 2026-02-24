@@ -13,7 +13,6 @@ let
   };
 in
 
-
 {
   home.username = "hxt";
   home.homeDirectory = "/home/hxt";
